@@ -1,0 +1,66 @@
+{
+  "example": "Alex–Terry archived Hybrid r3",
+  "runId": "pr51-paired-alex-terry-01",
+  "model": "gpt-6.1-sol",
+  "responseId": "resp_03f7f978e9b29cad016aee5c23f48887d08102a27ce07e6445",
+  "promptVersion": "blank-slate-hybrid-r3",
+  "input": "32 frozen focused screenshots plus saved machine-generated findings",
+  "selection": "Operator-selected 4:00–4:08 controlled window; NOT autonomous whole-match moment selection",
+  "origin": "Genuine completed archived model stream; decoded text equals the preserved original byte-for-byte",
+  "originalResponseSha256": "5dcd42c0856a7169f3198832ec3067464123a91831627d0fb974f25353357e4e",
+  "historicalSoftwareValidation": "accepted",
+  "humanReview": {
+    "natural": 4,
+    "understandable": 4,
+    "actionable": 4,
+    "status": "Conditional at original review; later owner confirmation of drill recorded separately"
+  },
+  "laterHumanContribution": {
+    "recordingOrigin": "Owner confirms both recordings are his own; he is Alex",
+    "drill": "Owner reports the Rising Tackle drill works at close spacing across variations; owner specifies Alex cash-out combo as the punish",
+    "independentlyReproducedByCodex": false,
+    "partOfOriginalAIResponse": false,
+    "exactComboInputsOrDamageCertified": false
+  },
+  "usage": {
+    "inputTokens": 15855,
+    "outputTokens": 451,
+    "reasoningTokens": 0,
+    "totalTokens": 16306
+  },
+  "evidence": [
+    {
+      "frameId": "focus-017",
+      "timestamp_seconds": 244.125,
+      "sha256": "2b905722d1da3d539c0d8fb630efb5ec0129026aebdbe90e4dcda2223925f3cf"
+    },
+    {
+      "frameId": "focus-021",
+      "timestamp_seconds": 245.134,
+      "sha256": "f4b7770f06d4c0a317a7590c2ebfd79fd0b03836dfd4612b48601b2ac6238541"
+    },
+    {
+      "frameId": "focus-028",
+      "timestamp_seconds": 246.88,
+      "sha256": "78b8bb6c98dfbce44e338ed6f663e390f8f7ccc872d6fce5138115ed885add22"
+    },
+    {
+      "frameId": "focus-029",
+      "timestamp_seconds": 247.147,
+      "sha256": "c2f04cc79bbab6b970005f60c68c94795bea63ed095de63e1745a4daae933462"
+    },
+    {
+      "frameId": "focus-032",
+      "timestamp_seconds": 247.885,
+      "sha256": "0806d97c7e0326be20620ec6cac92a91c25b87d3c8a1e81a81433815e784fd59"
+    }
+  ],
+  "limits": [
+    "Sparse stills are not continuous footage",
+    "Exact inputs, initiating grapple name, Terry preceding action, and frame advantage remain unresolved",
+    "Low contact pose is not an independent certification of attack hit-height properties",
+    "The model did not observe Rising Tackle in this replay; it proposed it as a training setup",
+    "Validation acceptance does not establish comprehensive factual accuracy"
+  ],
+  "publicationApproved": false
+}

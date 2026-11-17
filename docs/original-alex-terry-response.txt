@@ -1,0 +1,21 @@
+Reinforcement | alex-punish-counter-grapple-knockdown, alex-following-punish-counter-hits, alex-guards-terry-attacks
+
+Nice sequence—you got rewarded for the punish opportunities, then switched to defense when Terry started attacking back.
+
+**What went well**
+- **At 4:00–4:04**, you catch Terry with a **Punish Counter** and carry him through the grapple sequence into a **hard knockdown**. That gives you a chance to set up your next offense. The screenshots don’t establish the exact move or inputs, so I wouldn’t label the grapple more specifically.
+- **At 4:04–4:06**, you get another Punish Counter after Terry rises, and the hit counter subsequently reaches three. Good job getting damage from that opening. We can’t tell which action you punished or reconstruct the exact combo from these stills.
+- **At 4:07**, you block Terry’s punch, then crouch-block the low kick. That’s a good change of gears: you don’t keep swinging just because your previous offense worked.
+
+**What to build on**
+
+Keep that distinction between *your opening* and *their pressure*. A Punish Counter tells you that you caught a vulnerable recovery state; blocking an attack does **not** automatically mean it’s your turn. Nothing here establishes that you missed a punish during Terry’s response.
+
+**Training Mode practice option: punish, then stay disciplined**
+
+1. Pick Alex against Terry and turn on **Frame Meter** and **Input History**.
+2. Record Terry doing an unsafe special—**Rising Tackle**, for example—then holding back. Practice blocking it and answering with a reliable punish. Start simple; add damage only once the punish is consistent.
+3. Make a second recording of Terry doing a short normal-pressure sequence, including a low, then blocking.
+4. Randomize the recordings. Your goal is to **punish the clearly unsafe recovery, but keep guarding when you haven’t confirmed an opening**.
+
+Aim for ten correct decisions, not ten attacks. That builds on the strongest thing in this clip: taking your damage when it’s available without refusing to defend afterward.

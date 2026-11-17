@@ -1,0 +1,30 @@
+# Defense-in-depth only: this does not clear an asset or inspect git history.
+.git/
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.sqlite*
+*.db
+*.log
+*.mp4
+*.webm
+*.mov
+*.mkv
+*.avi
+*.m4v
+*.wav
+*.mp3
+*.exe
+*.zip
+node_modules/
+tmp/
+private-review/
+# Only the individually reviewed presentation PNGs are intended for this package.
+*.png
+*.jpg
+*.jpeg
+!assets/fg-coach-review.png
+!assets/alex-terry-evidence.png
+!assets/alex-terry-coaching.png
