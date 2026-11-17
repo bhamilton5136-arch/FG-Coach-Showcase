@@ -62,5 +62,5 @@
     "The model did not observe Rising Tackle in this replay; it proposed it as a training setup",
     "Validation acceptance does not establish comprehensive factual accuracy"
   ],
-  "publicationApproved": false
+  "publicationApproved": true
 }

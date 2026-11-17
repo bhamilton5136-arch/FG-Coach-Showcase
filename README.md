@@ -12,7 +12,7 @@
 
 ![FG Coach review screen showing enlarged gameplay, two coaching tabs, a verified-event timeline, a practice drill, and ratings](assets/fg-coach-review.png)
 
-*The FG Coach review screen, rendered locally with human-written example coaching. It is not a screenshot of AI-generated advice. The opponent's online name is concealed.*
+*The FG Coach review screen, rendered locally with human-written example coaching. It is not a screenshot of AI-generated advice. The player names shown are my own.*
 
 FG Coach is a local-first Street Fighter 6 replay-coaching project. It brings replay playback, multimodal AI analysis, evidence-linked coaching, and player feedback into a Windows application.
 
