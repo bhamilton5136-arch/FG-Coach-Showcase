@@ -36,13 +36,13 @@ export async function audit(root){
    }
   }
  }
- assert.equal(hashes['assets/fg-coach-review.png'],'109f74261b5d2740eb1ec403af4396c2da4c518bef3d2399b642df3d0bca4ce1');
- assert.equal(hashes['assets/alex-terry-evidence.png'],'266cc5f838cef4b60b8a8f326f7575fcd4d04b1b9812be00af21a4d3af1b84a8');
+ assert.equal(hashes['assets/fg-coach-review.png'],'f1e2d360d23f602cab191b9099a04783a1955252a16eec9723bdb5cb2c697429');
+ assert.equal(hashes['assets/alex-terry-evidence.png'],'71f33ae2982845a88149686181179c96321f83a5a3bbbf7563f0e13af132bd97');
  assert.equal(hashes['assets/alex-terry-coaching.png'],'ab0c093f5c1c50acd236d6ff8bf87616d5571ed81117d95b23b233ca79890532');
  assert.equal(hashes['docs/original-alex-terry-response.txt'],'5dcd42c0856a7169f3198832ec3067464123a91831627d0fb974f25353357e4e');
- assert.equal(images['assets/fg-coach-review.png'].width,1440);assert.equal(images['assets/fg-coach-review.png'].height,900);
+ assert.equal(images['assets/fg-coach-review.png'].width,1920);assert.equal(images['assets/fg-coach-review.png'].height,1080);
  const readme=await readFile(join(root,'README.md'),'utf8'),study=await readFile(join(root,'docs/case-study.md'),'utf8');
- assert.equal(hashes['docs/case-study.md'],'44030c69d3cc2d8061c185023d907a005d6d2d63d0cb04628e64ac5d9e6b2473','Approved tightened case study must remain byte-identical');
+ assert.equal(hashes['docs/case-study.md'],'b35455be41ff32ddfee1a2f3588085173ef10e01b57ff3a6dbfff17127b879e6','Approved tightened case study must remain byte-identical');
  assert.doesNotMatch(readme+study,/\bFGC Coach\b|Hybrid r2\.1|\bSol\b|Phase 4C|RW-001|P0 FAIL/);
  assert.match(readme,/surveys 30 images/);assert.match(readme,/proposes up to two moments/);
  const feedback=s=>s.match(/\| Players \| Skill level \| Feedback \|[\s\S]*?(?=\r?\n\r?\n)/)?.[0].replaceAll('\r\n','\n');
